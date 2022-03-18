@@ -18,4 +18,4 @@ Aplicativo de Orçamento com Javascript 🤑 💸
 
 ---
 
-Link App: 
+Link to open the App: 
