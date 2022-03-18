@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Budget App</title>
-    <link rel="stylesheet" href="style.css">
+    <title>MyBudget</title>
+    <link rel="shortcut icon" href="/favicon/budget.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <div class="budget-container">
@@ -51,23 +52,25 @@
             <div class="hide" id="income">
                 <ul class="list"></ul>
                 <div class="input">
-                    <input type="text" id="income-amount-input" name="title" placeholder="Title">
+                    <input type="text" id="income-title-input" name="title" placeholder="Title">
                     <input type="number" id="income-amount-input" name="amount" placeholder="$0">
                     <div class="add-income"><img src="icon/plus.png" alt=""></div>
                 </div>
             </div>
-            <div  class="hide" id="expense">
+            <div class="hide" id="expense">
                 <ul class="list"></ul>
                 <div class="input">
-                    <input type="text" id="expense-amount-input" name="title" placeholder="Title">
+                    <input type="text" id="expense-title-input" name="title" placeholder="Title">
                     <input type="number" id="expense-amount-input" name="amount" placeholder="$0">
                     <div class="add-expense"><img src="icon/plus.png" alt=""></div>
                 </div>
             </div>
-            <div id="all"></div>
+            <div id="all">
+                <ul class="list"></ul>
+            </div>
         </div>
     </div>
-    <script> src="budget.js"</script>
-    <script> src="chart.js"</script>
+    <script src="/js/chart.js"></script>
+    <script src="/js/budget.js"></script>
 </body>
 </html>
