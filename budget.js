@@ -37,10 +37,16 @@ expenseBtn.addEventListener("click", function(){
     inactive( [incomeBtn, allBtn] );
 })
 incomeBtn.addEventListener("click", function(){
-    
+    show(incomeE1);
+    hide( [expenseE1, allE1] );
+    active(incomeBtn);
+    inactive( [expenseBtn, allBtn]);
 })
 allBtn.addEventListener("click", function(){
-
+    show(allE1);
+    hide( [incomeE1, expenseE1] );
+    active(allBtn);
+    inactive( [incomeBtn, expenseBtn] );
 })
 
 // HELPERS
