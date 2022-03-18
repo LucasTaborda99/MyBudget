@@ -10,8 +10,12 @@ Budget App with Javascript  🤑 💸
 ---
 Aplicativo de Orçamento com Javascript 🤑 💸
 
-- Aplicativo criado para ajudar as pessoas a terem um melhor controle financeiro na vida delas.
+- Este aplicativo foi criado para ajudar as pessoas a terem um melhor controle financeiro na vida delas.
 
-- O aplicativo mostra, o saldo, a renda e o resultado. também possui um painel onde o usuário pode adicionar uma nova entrada (uma receita ou uma despesa), pode alternar entre a lista de receitas (que mostra apenas todas as entradas de receita), a lista de despesas (que mostra apenas as entradas de resultado) e todas list (que mostra todas as entradas). O usuário pode editar ou excluir uma entrada sempre que desejar. O aplicativo possui um gráfico, para que o usuário possa comparar facilmente a renda e o resultado.
+- O aplicativo mostra, o saldo, as receitas (entradas) e as despesas (saídas). Também possui um painel onde o usuário pode adicionar uma nova entrada (uma receita ou uma despesa), pode alternar entre a lista de receitas (que mostra apenas as receita), a lista de despesas (que mostra apenas as despesas) e todas (que mostra todas as receitas e despesas). O usuário pode editar ou excluir uma receita ou despesa sempre que desejar. O aplicativo possui um gráfico, para que o usuário possa comparar facilmente a renda e o resultado.
 
-- A lista de entradas de receitas e despesas do usuário é armazenada no armazenamento local, portanto, quando ele atualiza a página ou reinicializa sua máquina, ele sempre pode encontrar seus dados lá.
+- A lista de receitas e despesas do usuário é armazenada no armazenamento local, portanto, quando ele atualiza a página ou reinicializa sua máquina, ele sempre encontrará seus dados lá.
+
+---
+
+Link App: 
