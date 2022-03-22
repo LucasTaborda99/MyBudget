@@ -18,4 +18,4 @@ Aplicativo de Orçamento com Javascript 🤑 💸
 
 ---
 
-Link to open the App: 
+Link to open the App: https://lucastaborda99.github.io/MyBudget/
